@@ -3,5 +3,7 @@ module.exports.lol = function(req, res){
 }
 
 module.exports.home = function(req, res){
-    return res.end('<h1>Ok its working</h1>');
+   return res.render('index', {
+    title: "home"
+   });
 }
