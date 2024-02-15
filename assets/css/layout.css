@@ -1,8 +1,26 @@
 *{
     margin: 0;
-    background: lightblue;
+    padding: 0;
 }
 
 body{
     margin: 0.5rem;
+}
+
+.header-nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+
+header{
+    margin-bottom: 1rem;
+}
+
+footer{
+    margin-top: 1rem;
+}
+
+h1{
+    margin-bottom: 0.5rem;
 }
